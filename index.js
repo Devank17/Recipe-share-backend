@@ -4,8 +4,8 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 const mongoose = require("mongoose");
 const cors = require("cors");
-const Recipe = require("./models/recipe");
-const recipes = require("./data/data");
+// const Recipe = require("./models/recipe");
+// const recipes = require("./data/data");
 const url = process.env.MONGO_URL;
 
 const recipeRoute = require("./src/router/recipeRoute");
